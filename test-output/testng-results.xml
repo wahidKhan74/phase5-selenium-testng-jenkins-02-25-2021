@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11227" started-at="2021-02-25T16:50:53 UTC" finished-at="2021-02-25T16:51:04 UTC">
+    <groups>
+      <group name="Chrome">
+        <method signature="ApplicationDemoTest.lauchChromeTest()[pri:0, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="lauchChromeTest" class="com.ecommerce.webapp.test.ApplicationDemoTest"/>
+        <method signature="ApplicationDemoTest.verifyAmazonHomePageSourceURL()[pri:2, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="verifyAmazonHomePageSourceURL" class="com.ecommerce.webapp.test.ApplicationDemoTest"/>
+        <method signature="ApplicationDemoTest.verifyAmazonHomePageTitle()[pri:1, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="verifyAmazonHomePageTitle" class="com.ecommerce.webapp.test.ApplicationDemoTest"/>
+      </group> <!-- Chrome -->
+      <group name="FireFox">
+        <method signature="ApplicationDemoTest.lauchFireFoxTest()[pri:3, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="lauchFireFoxTest" class="com.ecommerce.webapp.test.ApplicationDemoTest"/>
+        <method signature="ApplicationDemoTest.verifyFacebookHomePageTitle()[pri:4, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="verifyFacebookHomePageTitle" class="com.ecommerce.webapp.test.ApplicationDemoTest"/>
+      </group> <!-- FireFox -->
+    </groups>
+    <test name="Default test" duration-ms="11227" started-at="2021-02-25T16:50:53 UTC" finished-at="2021-02-25T16:51:04 UTC">
+      <class name="com.ecommerce.webapp.test.ApplicationDemoTest">
+        <test-method status="PASS" signature="lauchChromeTest()[pri:0, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="lauchChromeTest" duration-ms="4755" started-at="2021-02-25T16:50:53 UTC" finished-at="2021-02-25T16:50:58 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchChromeTest -->
+        <test-method status="PASS" signature="verifyAmazonHomePageTitle()[pri:1, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="verifyAmazonHomePageTitle" duration-ms="31" started-at="2021-02-25T16:50:58 UTC" depends-on-methods="com.ecommerce.webapp.test.ApplicationDemoTest.lauchChromeTest" finished-at="2021-02-25T16:50:58 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonHomePageTitle -->
+        <test-method status="PASS" signature="verifyAmazonHomePageSourceURL()[pri:2, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="verifyAmazonHomePageSourceURL" duration-ms="130" started-at="2021-02-25T16:50:58 UTC" depends-on-methods="com.ecommerce.webapp.test.ApplicationDemoTest.lauchChromeTest" finished-at="2021-02-25T16:50:58 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonHomePageSourceURL -->
+        <test-method status="PASS" signature="lauchFireFoxTest()[pri:3, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="lauchFireFoxTest" duration-ms="5479" started-at="2021-02-25T16:50:58 UTC" finished-at="2021-02-25T16:51:03 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchFireFoxTest -->
+        <test-method status="PASS" signature="verifyFacebookHomePageTitle()[pri:4, instance:com.ecommerce.webapp.test.ApplicationDemoTest@7f13d6e]" name="verifyFacebookHomePageTitle" duration-ms="787" started-at="2021-02-25T16:51:03 UTC" depends-on-methods="com.ecommerce.webapp.test.ApplicationDemoTest.lauchFireFoxTest" finished-at="2021-02-25T16:51:04 UTC">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFacebookHomePageTitle -->
+      </class> <!-- com.ecommerce.webapp.test.ApplicationDemoTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
